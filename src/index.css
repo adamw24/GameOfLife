@@ -22,7 +22,7 @@ button {
 
 .square {
   background: transparent;
-  border: 2px solid #555;
+  border: 0.01vw solid #555;
   float: left;
   font-size: 10px;
   /* font-weight: bold; */
