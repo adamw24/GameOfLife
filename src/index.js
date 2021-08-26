@@ -169,6 +169,7 @@ class Game extends React.Component {
     <>
         <div className="intro">
             <div className="title">Conway's Game of Life</div>
+            <p>created by Adam Wang</p>
             <p>Designed by mathematician John Conway, this game is more of a cellular automaton. How it works: if a cell alive (not black), then it remains alive if surrounded by two or three live cells, otherwise it will die and turn black. A dead cell will become live if it is neighbored by exactly three live cells. Click on a square to change whether it's alive or dead.</p>
     
             <button className="motionControls" onClick={() => {this.setState({run: false, history: [{board: distributeLive(rows, columns, 0)}]})}}> Clear </button>
