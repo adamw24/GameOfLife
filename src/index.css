@@ -26,11 +26,11 @@ button {
   float: left;
   font-size: 10px;
   /* font-weight: bold; */
-  line-height: 1vmax;
-  height: 1vmax;
+  line-height: 0.9vw;
+  height: 0.9vw;
   padding: 0;
   text-align: center;
-  width: 1vmax;
+  width: 0.9vw;
 }
 
 .dead {
@@ -45,7 +45,6 @@ button:hover {
   background: #ddd;
 }
 
-.game,
 .intro {
   flex-direction: row;
   justify-content: center;
@@ -58,11 +57,6 @@ button:hover {
   font-size: 45px;
 }
 
-.bottom {
-  position: fixed;
-  bottom: 10px;
-}
-.game-info {
-  margin-left: 20px;
-  font-size: 25px;
+.game {
+  margin-left: 5vw;
 }
